@@ -155,9 +155,6 @@ header .hamburger-menu{
 }
 
 /* Third Section */
-#partners{
-    background-color: white;
-}
 
 #partners .intro{
     text-align: center;
@@ -211,5 +208,34 @@ header .hamburger-menu{
 }
 
 /* Fifth Section */
+
+#about-us .wrapper{
+    color: var(--secondary-col);
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.wrapper p{
+    color: var(--text-col);
+    margin: 2rem 0;
+}
+
+.citation .ceo{
+    display: inline-block;
+    width: 8rem;
+    position: relative;
+}
+
+.citation .ceo img{
+  border-radius: 50%;
+}
+
+.citation .ceo i{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+
 
 

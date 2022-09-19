@@ -45,8 +45,20 @@
         width: calc(100% / 2 - 1rem);
     }
 
+    /* Fifth Section */
+    #about-us .wrapper{
+        flex-wrap: nowrap;
+    }
 
+    .wrapper .text-wrapper{
+        width: 60%;
+        padding: 1rem 2.5rem
+    }
 
+    .wrapper .citation{
+        width: 40%;
+        padding: 1rem 4rem
+    }
 
 
 
