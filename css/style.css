@@ -60,7 +60,7 @@ img{
 
 header{
     background-color:var(--primary-col);
-    color: white;
+    color: var(--white-col);
     height: 75px;
     position: fixed;
     top: 0;
@@ -98,30 +98,57 @@ header .hamburger-menu{
 /* First section */
 
 #about .row{
-    margin-top: 6rem;
+    margin: 6rem 0 3rem 0;
     flex-wrap: wrap;
     gap: 1rem;
-    /* debug */
-    border: 1px solid red;
+
 }
 
 #about .row .card{
     text-align: center;
     padding: 1rem;
-
-    /* debug */
-    border: 1px solid red;
+    background-color: var(--primary-col-light);
+    line-height: 2rem;
 }
 
 .card h4{
     margin: 1rem 0;
+    font-size: 1.5rem;
     color: var(--primary-col);
+    
 }
 
 #about .row .card:first-child{
     flex-direction: column;
     padding-bottom: 0;
-    
+    text-align: left;
+}
+
+#about .row .card:first-child .image-space{
+    align-self: flex-end;
+}   
+
+#about .row .card:first-child .image-space img{
+    vertical-align:bottom;
+
+}
+
+#about .row .card:first-child .btn{
+    margin: 2rem 0;
+    padding: 0.8rem 3rem;
+    background-color: var(--primary-col);
+    color: var(--white-col);
+    font-size: 1.2rem;
+}
+
+.card:first-child .btn a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#about .row .card>i{
+    font-size: 4rem;
+    color: var(--primary-col);
 }
 
 /* Second section */

@@ -9,7 +9,6 @@
     /* First section */    
 
     #about .row{
-        /* flex-direction: row; */
         flex-wrap: wrap; 
         gap: var(--gutter);
     }
