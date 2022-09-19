@@ -144,3 +144,47 @@ header .hamburger-menu{
     text-align: center;
     padding: 2rem;
 }
+
+.row .col-dx span{
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: var(--secondary-col);
+}
+
+/* Third Section */
+#partners .intro{
+    text-align: center;
+}
+
+#partners .experts{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#partners .partner{
+    background-color: var(--secondary-col);
+    text-align: center;
+    color: var(--white-col);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#partners  span{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 1rem;
+
+}
+
+#partners .pic-partner img{
+    width: auto;
+    height: 100%;
+}
+
+/* Fourth Section */
+
+

@@ -23,6 +23,26 @@
         width: calc(100% / 3 * 2 - var(--gutter) / 3);
     }
 
+    /* Third section */    
+
+    #partners .partner{
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    #partners .partner .pic-partner{
+        width: 30%;
+    }
+
+    #partners .partner .quote{
+        width: 70%;
+        text-align: left;
+    }
+
+
+
+
+
 
 }
 
