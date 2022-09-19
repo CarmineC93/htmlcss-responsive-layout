@@ -23,6 +23,12 @@
 
 }
 
+/* UTILITIES */
+
+
+.b-rad20{
+    border-radius: 20px;
+}
 
 
 /* COMMON */
@@ -46,7 +52,6 @@ img{
 }
 
 .btn{
-    border-radius: 20px;
     padding: 0.5rem;
     border-color:transparent;
 }
@@ -94,7 +99,7 @@ header .hamburger-menu{
 
 #about .row{
     margin-top: 6rem;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 1rem;
     /* debug */
     border: 1px solid red;
@@ -102,7 +107,6 @@ header .hamburger-menu{
 
 #about .row .card{
     text-align: center;
-    border-radius: 20px;
     padding: 1rem;
 
     /* debug */
@@ -118,4 +122,25 @@ header .hamburger-menu{
     flex-direction: column;
     padding-bottom: 0;
     
+}
+
+/* Second section */
+
+#strategic .row{
+    flex-wrap: wrap ;
+    background-color: var(--secondary-col);
+    color: var(--white-col);
+    padding: 3rem 1rem;
+}
+
+#strategic .row>div{
+    width: 90%;
+    margin: 1rem auto;
+}
+
+#strategic .row .col-dx{
+    background-color: var(--white-col);
+    color: var(--text-col);
+    text-align: center;
+    padding: 2rem;
 }

@@ -9,7 +9,7 @@
     /* First section */    
 
     #about .row{
-        flex-direction: row;
+        /* flex-direction: row; */
         flex-wrap: wrap; 
         gap: var(--gutter);
     }
@@ -18,14 +18,13 @@
         width: calc(100% / 3  - (var(--gutter) * 2 / 3));
     }
     
+    
     #about .row .card:first-child{
         width: calc(100% / 3 * 2 - var(--gutter) / 3);
-        flex-direction: row;
     }
 
 
-
-
+}
 
 
 
@@ -50,7 +49,21 @@
     header .desk-menu {
         display: block;
     }
+ 
+    /* MAIN */
+    /* First section */ 
+    #about .row .card:first-child{
+        flex-direction: row;
+    }
 
+    /* Second section */
+    #strategic .row{
+        flex-wrap: nowrap;
+    }
+
+    #strategic .row>div{
+        margin: 1rem;
+    }
 
 }
 
