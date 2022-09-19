@@ -39,6 +39,14 @@
         text-align: left;
     }
 
+    /* Fourth Section */
+
+    .benefit-row .benefit-card{
+        width: calc(100% / 2 - 1rem);
+    }
+
+
+
 
 
 
@@ -84,6 +92,12 @@
     #strategic .row>div{
         margin: 1rem;
     }
+    /* Fourth Section */
+    
+    .benefit-row .benefit-card{
+        width: calc(100% / 3 - 1rem);
+    }
+
 
 }
 

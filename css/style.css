@@ -125,10 +125,12 @@ header .hamburger-menu{
 }
 
 /* Second section */
+#strategic {
+    background-color: var(--secondary-col);
+}
 
 #strategic .row{
     flex-wrap: wrap ;
-    background-color: var(--secondary-col);
     color: var(--white-col);
     padding: 3rem 1rem;
 }
@@ -153,6 +155,10 @@ header .hamburger-menu{
 }
 
 /* Third Section */
+#partners{
+    background-color: white;
+}
+
 #partners .intro{
     text-align: center;
 }
@@ -186,5 +192,24 @@ header .hamburger-menu{
 }
 
 /* Fourth Section */
+
+#benefits {
+    background-color: var(--secondary-col);
+    color: var(--white-col);
+}
+
+#benefits .benefit-row{
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.benefit-row .benefit-card{
+    background-color: var(--white-col);
+    color: var(--secondary-col);
+    padding: 1rem;
+
+}
+
+/* Fifth Section */
 
 
