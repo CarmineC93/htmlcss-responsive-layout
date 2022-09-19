@@ -7,6 +7,7 @@
     <title>Document</title>
     <!-- Link Style -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries-style.css">
     <!-- Link font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,22 +19,29 @@
 <body>
     <!-- header -->
     <header>
-        <div class="container">
+        <div class="container flex">
+            <!-- logo -->
             <div class="site-brand">
-
+                <img src="img/logo.png" alt="">
             </div>
 
+            <!-- mobile/tablet menu button -->
             <div class="hamburger-menu">
-                <img src="" alt="">
+                <i class="fa-solid fa-bars"></i>            
             </div>
 
-            <div class="desk-menu">
-                <ul>
-                    <li><a href=""> </a></li>
-                    <li><a href=""> </a></li>
-                    <li><a href=""> </a></li>
-                    <li><a href=""> </a></li>
-                    <li><a href=""> </a></li>                    
+            <!-- menu desktop -->
+            <div class="desk-menu ">
+                <ul class="flex">
+                    <li><a href="">Planning</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li>
+                        <button class="btn">
+                            <a href="">Get Started</a>
+                        </button>
+                    </li>                    
                 </ul>
             </div>
         </div>
