@@ -254,6 +254,22 @@ header .hamburger-menu{
 
   /* FOOTER */
 
+  footer{
+    background-color: var(--dark-gray);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .main-footer{
+    margin-bottom: 3rem;
+  }
+
+  .sub-footer a{
+    color: var(--secondary-col)
+  }
+
+
 
 
 
