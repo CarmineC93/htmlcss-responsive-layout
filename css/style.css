@@ -17,7 +17,13 @@
     --text-col: #111;
     --white-col: #fff;
     --dark-gray: #333;
+
+    /* spaces */
+    --gutter: 1.5rem;
+
 }
+
+
 
 /* COMMON */
 
@@ -51,16 +57,16 @@ header{
     background-color:var(--primary-col);
     color: white;
     height: 75px;
-}
-
-header .container{
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 999;
+}
+
+header .container{
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     padding: 1rem;
 }
 
@@ -72,7 +78,6 @@ header ul{
     list-style-type: none;
     gap: 15px;
     align-items: center;
-
 }
 
 header a{
@@ -84,3 +89,33 @@ header .hamburger-menu{
     font-size: 1.5rem;
 }
 
+/* MAIN */
+/* First section */
+
+#about .row{
+    margin-top: 6rem;
+    flex-direction: column;
+    gap: 1rem;
+    /* debug */
+    border: 1px solid red;
+}
+
+#about .row .card{
+    text-align: center;
+    border-radius: 20px;
+    padding: 1rem;
+
+    /* debug */
+    border: 1px solid red;
+}
+
+.card h4{
+    margin: 1rem 0;
+    color: var(--primary-col);
+}
+
+#about .row .card:first-child{
+    flex-direction: column;
+    padding-bottom: 0;
+    
+}

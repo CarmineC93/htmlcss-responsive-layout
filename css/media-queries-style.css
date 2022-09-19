@@ -2,12 +2,37 @@
 /************************************************
     TABLET VIEW (more than 768px)
  ************************************************/
+ @media screen and (min-width: 768px){
+    /* COMMON */
+
+    /* MAIN */
+    /* First section */    
+
+    #about .row{
+        flex-direction: row;
+        flex-wrap: wrap; 
+        gap: var(--gutter);
+    }
+    
+    #about .row .card{
+        width: calc(100% / 3  - (var(--gutter) * 2 / 3));
+    }
+    
+    #about .row .card:first-child{
+        width: calc(100% / 3 * 2 - var(--gutter) / 3);
+        flex-direction: row;
+    }
+
+
+
+
+
 
 
 /************************************************
     DESKTOP VIEW (more than 992px)
  ************************************************/
- 
+
  @media screen and (min-width: 992px){
     /* COMMON */
     .container{
