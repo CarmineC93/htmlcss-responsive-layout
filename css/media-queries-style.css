@@ -72,8 +72,19 @@
 
     .wrapper .citation{
         width: 40%;
-        padding: 1rem 4rem
+        padding: 1rem 2.5rem
     }
+
+    .wrapper .citation .ceo{
+        width: 100%;
+    }
+
+    .wrapper .citation .ceo span{
+        right: -1rem;
+        font-size: 4rem;
+    }
+
+
     /* Sixth Section */
 
 
@@ -96,10 +107,10 @@
  @media screen and (min-width: 992px){
     /* COMMON */
     .container{
-        width: 60%;
+        width: 65%;
         margin: 0 auto;
         max-width: 1000px;
-        padding: 1.5rem 0;
+        padding: 2rem 0;
     }
     
     /* HEADER */
@@ -123,18 +134,18 @@
         padding: 2rem 3rem;
     }
 
-
     #strategic .row>div{        
         width: 90%;
         margin: 1rem;
     }
 
     #strategic .row .col-sx h2{
-        padding-top: 7rem ;
+        padding-top: 7rem;
+        font-size: 1.8rem;
     }
 
     #strategic .row .col-dx img {
-        height: 15rem;
+        max-height: 15rem;
     }
 
     /* Fourth Section */

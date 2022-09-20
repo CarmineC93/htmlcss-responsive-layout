@@ -251,6 +251,11 @@ header ul{
     color: var(--white-col);
 }
 
+#benefits h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
 #benefits .benefit-row{
     flex-wrap: wrap;
     gap: 1rem;
@@ -283,6 +288,11 @@ header ul{
     color: var(--text-col);
 }
 
+.citation button{
+    background-color: var(--secondary-col);
+    color: var(--white-col);
+}
+
 .citation .ceo{
     display: inline-block;
     width: 8rem;
@@ -296,9 +306,11 @@ header ul{
 .citation .ceo span{
     position: absolute;
     top: 0;
-    right: -1rem;
-    font-size: 3rem;
-  }
+    right: 0;
+    font-size: 2rem;
+}
+
+
 
   /* Sixth Section */
 
