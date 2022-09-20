@@ -30,6 +30,14 @@
     border-radius: 20px;
 }
 
+.b-rad60{
+    border-radius: 60px;
+}
+
+.line-hgt2{
+    line-height: 2rem;
+}
+
 
 /* COMMON */
 
@@ -97,18 +105,17 @@ header .hamburger-menu{
 /* MAIN */
 /* First section */
 
-#about .row{
+#about .cards{
     margin: 6rem 0 3rem 0;
     flex-wrap: wrap;
     gap: 1rem;
 
 }
 
-#about .row .card{
-    text-align: center;
-    padding: 1rem;
+#about .cards .card{    
     background-color: var(--primary-col-light);
-    line-height: 2rem;
+    text-align: center;
+    padding: 2rem;
 }
 
 .card h4{
@@ -118,22 +125,21 @@ header .hamburger-menu{
     
 }
 
-#about .row .card:first-child{
+#about .cards .card:first-child{
     flex-direction: column;
     padding-bottom: 0;
     text-align: left;
 }
 
-#about .row .card:first-child .image-space{
+#about .cards .card:first-child .image-space{
     align-self: flex-end;
 }   
 
-#about .row .card:first-child .image-space img{
+#about .cards .card:first-child .image-space img{
     vertical-align:bottom;
-
 }
 
-#about .row .card:first-child .btn{
+#about .cards .card:first-child .btn{
     margin: 2rem 0;
     padding: 0.8rem 3rem;
     background-color: var(--primary-col);
@@ -141,12 +147,12 @@ header .hamburger-menu{
     font-size: 1.2rem;
 }
 
-.card:first-child .btn a{
+.cards .card:first-child .btn a{
     color: inherit;
     text-decoration: none;
 }
 
-#about .row .card>i{
+#about .cards .card>i{
     font-size: 4rem;
     color: var(--primary-col);
 }
@@ -172,14 +178,32 @@ header .hamburger-menu{
     color: var(--text-col);
     text-align: center;
     padding: 2rem;
+    align-self: flex-end;
 }
 
 .row .col-dx span{
+    display: inline-block;
+    width: 1.7em;
+    height: 1.7em;
     border-radius: 50%;
-    font-size: 2rem;
-    padding: 1rem;
-    background-color: var(--secondary-col);
+    padding: 0.1em;
+    font-size: 1.4em;
+    vertical-align: bottom;
+    background-color: var(--secondary-col);    
+    margin-top: 1.5rem;
+
 }
+
+#strategic .row .col-sx h2{
+    padding: 4rem 0 2rem;
+    font-size: 2.7rem;
+}
+
+#strategic .row .col-dx h4{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
 
 /* Third Section */
 
