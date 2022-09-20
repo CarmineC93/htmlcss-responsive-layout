@@ -161,13 +161,86 @@
 
     /* Sixth Section */
 
-    .small-box {
+    #call-to-action .small-box {
         width: 60% ;
         margin: 0 auto;
     }
-
 }
+
 
 /************************************************
     LARGE SCREEN VIEW (more than 1200px)
  ************************************************/
+
+ @media screen and (min-width: 1200px){
+    
+    /* COMMON */
+
+    .container{
+        width: 85%;
+        margin: 0 auto;
+        max-width: 1600px;
+        padding: 2rem 0;
+    }
+    
+    /* MAIN */
+
+    /* First section */    
+
+    #features .cards{
+        flex-wrap: wrap; 
+        justify-content: space-between;
+        gap: var(--gutter);
+    }
+
+    #features .cards .card{
+        width: calc(100% / 6 - var(--gutter));
+    }
+
+    #features .cards .card h4{
+        font-size: 1.2rem;
+    }
+
+    #features .cards .card:first-child{
+        width: calc(100% / 6 * 2 - var(--gutter) / 6);
+    }
+
+    /* Third section */  
+    #partners .experts{
+        flex-wrap: nowrap;
+    }
+
+    #partners .partner .pic-partner{
+        width: 50%;
+    }
+
+    #partners .partner .quote{
+        width: 50%;
+        text-align: left;
+    }
+
+    /* Fourth section */  
+
+    .benefit-row .benefit-card{
+        width: calc(100% / 6 - 1rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;    
+    }
+
+    /* Second and Fifth sections */
+
+    #about-us .container, #strategic .container{
+        width: 65%;
+    }
+
+
+
+
+
+
+
+
+
+
+}
