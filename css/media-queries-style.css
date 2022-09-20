@@ -84,12 +84,11 @@
         font-size: 4rem;
     }
 
-
     /* Sixth Section */
-
 
     #call-to-action .container {
         width: 40% ;
+        margin: 0 auto;
     }
 
 

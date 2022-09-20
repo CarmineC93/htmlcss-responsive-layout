@@ -49,6 +49,18 @@
     font-size: 1.5rem;
 }
 
+.fntsz2{
+    font-size: 2rem;
+}
+
+.txt-cntr{
+    text-align: center;
+}
+
+.fnt-wgt200{
+    font-weight: 200;
+}
+
 .clean{
     color: inherit;
     text-decoration: none;
@@ -129,7 +141,6 @@ header ul{
 
 #features .cards .card{    
     background-color: var(--primary-col-light);
-    text-align: center;
     padding: 2rem;
 }
 
@@ -175,7 +186,6 @@ header ul{
 #strategic .row .col-dx{
     background-color: var(--white-col);
     color: var(--text-col);
-    text-align: center;
     padding: 2rem;
     align-self: flex-end;
 }
@@ -202,10 +212,6 @@ header ul{
 
 /* Third Section */
 
-#partners .intro{
-    text-align: center;
-}
-
 #partners .experts{
     flex-wrap: wrap;
     gap: 20px;
@@ -214,7 +220,6 @@ header ul{
 
 #partners .partner{
     background-color: var(--secondary-col);
-    text-align: center;
     color: var(--white-col);
     flex-wrap: wrap;
     justify-content: center;
@@ -232,10 +237,6 @@ header ul{
     padding: 0 0.3rem;
 }
 
-#partners .intro h5{
-    font-weight: 200;
-}
-
 #partners .partner .quote p{
     padding: 0 1rem;
 }
@@ -249,11 +250,6 @@ header ul{
 #benefits {
     background-color: var(--secondary-col);
     color: var(--white-col);
-}
-
-#benefits h3{
-    text-align: center;
-    font-size: 2rem;
 }
 
 #benefits .benefit-row{
@@ -307,10 +303,7 @@ header ul{
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 2rem;
 }
-
-
 
   /* Sixth Section */
 
@@ -324,8 +317,25 @@ header ul{
     align-items: center;
   }
 
+  .banner h5{
+    color: var(--secondary-col-light);
+  }
+
   .banner h2{
     color: var(--special-col);
+    font-size: 4rem;
+  }
+
+  .banner button{
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    color: var(--secondary-col);
+    font-weight: bold;
+  }
+
+  .banner a{
+    color: inherit;
   }
 
   /* FOOTER */
@@ -333,7 +343,6 @@ header ul{
   footer{
     background-color: var(--dark-gray);
     color: white;
-    text-align: center;
     padding: 2rem 1rem;
   }
 
