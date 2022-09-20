@@ -25,6 +25,10 @@
     #strategic .row{
         justify-content: center;
     }
+
+    #strategic .row .col-sx h2{
+        font-size: 3rem;
+    }
     
     /* Third section */    
 
@@ -81,23 +85,23 @@
 
     .wrapper .citation .ceo span{
         right: -1rem;
-        font-size: 4rem;
+        font-size: 5rem;
     }
 
     /* Sixth Section */
 
-    #call-to-action .container {
+    .small-box {
         width: 40% ;
         margin: 0 auto;
     }
 
+    /* FOOTER */
 
-
-
-
+    footer .small-container{
+        width: 40% ;
+        margin: 0 auto;
+    }    
 }
-
-
 
 /************************************************
     DESKTOP VIEW (more than 992px)
@@ -123,11 +127,13 @@
  
     /* MAIN */
     /* First section */ 
+
     #features .cards .card:first-child{
         flex-direction: row;
     }
 
     /* Second section */
+
     #strategic .row{
         flex-wrap: nowrap;
         padding: 2rem 3rem;
@@ -140,7 +146,7 @@
 
     #strategic .row .col-sx h2{
         padding-top: 7rem;
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     #strategic .row .col-dx img {
@@ -153,11 +159,14 @@
         width: calc(100% / 3 - 1rem);
     }
 
+    /* Sixth Section */
 
-
+    .small-box {
+        width: 60% ;
+        margin: 0 auto;
+    }
 
 }
-
 
 /************************************************
     LARGE SCREEN VIEW (more than 1200px)

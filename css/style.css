@@ -53,6 +53,10 @@
     font-size: 2rem;
 }
 
+.fntsz3{
+    font-size: 3rem;
+}
+
 .txt-cntr{
     text-align: center;
 }
@@ -97,9 +101,7 @@ h5, h3{
 
 #partners h2, #benefits h2, #about-us h2{
     color: var(--secondary-col);
-    font-size: 3rem;
 }
-
 
 /* HEADER */
 
@@ -203,7 +205,6 @@ header ul{
 
 #strategic .row .col-sx h2{
     padding: 4rem 0 2rem;
-    font-size: 2.7rem;
 }
 
 #strategic .row .col-dx h4{
@@ -312,6 +313,17 @@ header ul{
     color: var(--white-col);
   }
 
+  #call-to-action .small-box{
+    flex-direction: column;  
+    align-items: center;
+ 
+  }
+
+  #call-to-action .banner .box{
+    flex-direction: column;   
+    align-items: center;
+  }
+
   #call-to-action .banner{
     flex-direction: column;   
     align-items: center;
@@ -319,6 +331,10 @@ header ul{
 
   .banner h5{
     color: var(--secondary-col-light);
+  }
+
+  .banner h3{
+    font-size: 2.5rem;
   }
 
   .banner h2{
@@ -334,6 +350,10 @@ header ul{
     font-weight: bold;
   }
 
+  .banner p{
+    font-size: 0.8rem;
+  }
+
   .banner a{
     color: inherit;
   }
@@ -344,6 +364,7 @@ header ul{
     background-color: var(--dark-gray);
     color: white;
     padding: 2rem 1rem;
+    font-size: 0.8rem;
   }
 
   .main-footer{
