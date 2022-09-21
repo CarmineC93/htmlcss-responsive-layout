@@ -214,6 +214,10 @@
         width: 50%;
     }
 
+    #partners .partner .quote p {
+        padding: 3rem 3rem 0 1rem ;
+    }
+
     #partners .partner .quote{
         width: 50%;
         text-align: left;
